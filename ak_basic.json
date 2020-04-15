@@ -137,6 +137,7 @@
         }
       },
       "constraints": {
+        "security": false,
         "graphic": false,
         "responsibleParty": false
       },
