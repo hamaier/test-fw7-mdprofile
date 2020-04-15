@@ -2,14 +2,15 @@
   "identifier": "akbasic",
   "namespace": "gov.fws.profile",
   "alternateId": ["akbasic"],
-  "title": "Alaska Basic",
+  "title": "fw7 Basic",
   "description": "Alaska Region minimum profile.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "components": {
     "record": {
       "main": {
         "basicInformation": {
-          "recordId": false
+          "recordId": false,
+          "defaultLocale": false
         },
         "resourceType": {
           "name": false
