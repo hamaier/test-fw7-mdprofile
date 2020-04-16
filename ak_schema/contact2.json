@@ -33,7 +33,7 @@
 			}
 		},
 		"positionName": {
-			"type": "string",
+			"type": "number",
 			"description": "Role or position of the person, usually within a given organization.",
 			"translation": {
 				"ISO 19115-2": ["CI_ResponsibleParty > positionName"],
