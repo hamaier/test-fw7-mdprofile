@@ -142,8 +142,8 @@
 			},
 			"anyOf": [
 				{
-					"title": "name is required",
-					"required": ["name"]
+					"title": "name and email are required",
+					"required": ["name", "electronicMailAddress"]
 				}, {
 					"title": "positionName is required",
 					"required": ["positionName"]
