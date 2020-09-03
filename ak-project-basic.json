@@ -4,7 +4,7 @@
   "alternateId": ["akprojbasic"],
   "title": "fw7 Basic Project",
   "description": "Alaska Region minimum project profile.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "components": {
     "record": {
       "main": {
@@ -161,16 +161,6 @@
         "title": "Associated",
         "target": "record.show.edit.associated",
         "tip": "Other resources with a defined relationship to the project."
-      },
-      {
-        "title": "Documents",
-        "target": "record.show.edit.documents",
-        "tip": "Other documents related to, but not defining, the project."
-      },
-      {
-        "title": "Funding",
-        "target": "record.show.edit.funding",
-        "tip": "Information about funding allocated to development of the project."
       }
     ]
   }
