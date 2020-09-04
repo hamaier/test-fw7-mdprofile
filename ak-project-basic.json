@@ -1,10 +1,10 @@
 {
-  "identifier": "akprojbasic",
+  "identifier": "akprojdev",
   "namespace": "gov.fws.profile",
-  "alternateId": ["akprojbasic"],
+  "alternateId": ["akprojdev"],
   "title": "fw7 Basic Project",
   "description": "Alaska Region minimum project profile.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "components": {
     "record": {
       "main": {
