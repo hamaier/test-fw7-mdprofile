@@ -4,12 +4,23 @@
   "alternateId": ["akprojdev"],
   "title": "fw7 Basic Project",
   "description": "Alaska Region minimum project profile.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "components": {
     "record": {
       "main": {
         "basicInformation": {
           "recordId": false
+          "title": {},
+          "status": {},
+          "defaultLocale": {
+            "language": true,
+            "characterSet": false,
+            "country": false
+          }
+        },
+        "resourceType": {
+          "resourceType": true,
+          "name": false
         },
         "citation": {
           "basicInformation": {
@@ -54,32 +65,10 @@
         "credit": false
       },
       "metadata": {
-        "metadataIdentifier": {
-          "version": false,
-          "description": false,
-          "authority": false
-        },
-        "parentMetadata": {
-          "basicInformation": {
-            "alternateTitle": false,
-            "edition": false,
-            "presentationForm": false
-          },
-          "identifier": false,
-          "identifierSimple": {
-            "version": false,
-            "description": false,
-            "authority": false
-          },
-          "series": false,
-          "otherCitationDetails": false,
-          "graphic": false
-        },
-        "onlineResource": {
-          "protocol": false,
-          "applicationProfile": false,
-          "protocolRequest": false
-        },
+        "metadataIdentifier": false,
+        "parentMetadata": false,
+        "onlineResource": false,
+        "repositories": false,
         "maintenance": false,
         "defaultLocale": false,
         "alternateMetadataReference": false
