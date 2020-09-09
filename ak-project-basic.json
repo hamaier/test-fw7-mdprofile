@@ -9,7 +9,7 @@
     "record": {
       "main": {
         "basicInformation": {
-          "recordId": false
+          "recordId": false,
           "title": {},
           "status": {},
           "defaultLocale": {
