@@ -4,7 +4,7 @@
   "alternateId": ["akbasic"],
   "title": "fw7 Basic",
   "description": "Alaska Region minimum profile.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "components": {
     "record": {
       "main": {
@@ -28,7 +28,8 @@
           },
           "onlineResource": {
             "protocol": false,
-            "description": false
+            "applicationProfile": false,
+            "protocolRequest": false
           },
           "identifier": false,
           "identifierShort": {
@@ -66,18 +67,17 @@
         "credit": false
       },
       "metadata": {
-        "onlineResource": {
-          "protocol": false,
-          "description": false
-        },
+        "metadataIdentifier": false,
+        "parentMetadata": false,
+        "onlineResource": false,
+        "repositories": false,
         "maintenance": {
-          "date": false,
+          "frequency": true,
+          "dates": false,
           "contact": false,
           "note": false,
           "scope": false
         },
-        "parentMetadata": false,
-        "repositories": false,
         "defaultLocale": false,
         "alternateMetadataReference": false
       },

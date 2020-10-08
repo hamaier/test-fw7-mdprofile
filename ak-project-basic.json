@@ -4,7 +4,7 @@
   "alternateId": ["akprojdev"],
   "title": "fw7 Basic Project",
   "description": "Alaska Region minimum project profile.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "components": {
     "record": {
       "main": {
@@ -71,7 +71,10 @@
         "repositories": false,
         "maintenance": {
           "frequency": true,
-          "dates": false
+          "dates": false,
+          "contact": false,
+          "note": false,
+          "scope": false
         },
         "defaultLocale": false,
         "alternateMetadataReference": false
