@@ -1,7 +1,7 @@
 {
   "identifier": "akproja",
   "namespace": "gov.fws.profile",
-  "alternateId": ["aproja"],
+  "alternateId": ["akproja"],
   "title": "AK Project (alpha)",
   "description": "Alaska Region basic project profile (alpha).",
   "version": "0.0.1-alpha.1",
