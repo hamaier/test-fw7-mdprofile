@@ -101,16 +101,7 @@
       "uniqueItems": true,
       "items": {
         "$ref": "./responsibility.json#"
-      },
-      "properties": {
-        "role": {
-          "oneOf": [
-            {
-              "enum": ["pointOfContact"]
-            },
-          ]
-        }
-      },
+      }
     },
     "spatialReferenceSystem": {
       "type": "array",
