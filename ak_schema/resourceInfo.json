@@ -97,7 +97,7 @@
       "translation": {
         "ISO 19115-2": ["MD_DataIdentification > pointOfContact"]
       },
-      "minItems": 1,
+      "minItems": 2,
       "uniqueItems": true,
       "items": {
         "$ref": "./responsibility.json#"
