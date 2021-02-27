@@ -97,11 +97,20 @@
       "translation": {
         "ISO 19115-2": ["MD_DataIdentification > pointOfContact"]
       },
-      "minItems": 2,
+      "minItems": 1,
       "uniqueItems": true,
       "items": {
         "$ref": "./responsibility.json#"
-      }
+      },
+      "properties": {
+        "role": {
+          "oneOf": [
+            {
+              "enum": ["pointOfContact"]
+            },
+          ]
+        }
+      },
     },
     "spatialReferenceSystem": {
       "type": "array",
