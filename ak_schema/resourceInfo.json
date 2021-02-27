@@ -100,7 +100,10 @@
       "minItems": 1,
       "uniqueItems": true,
       "items": {
-        "$ref": "./responsibility.json#"
+        "$ref": "./responsibility.json#",
+        "contains": {
+          "role": "pointOfContact"
+        }
       }
     },
     "spatialReferenceSystem": {
