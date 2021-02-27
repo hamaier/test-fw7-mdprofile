@@ -102,7 +102,15 @@
       "items": {
         "$ref": "./responsibility.json#",
         "contains": {
-          "role": "pointOfContact"
+          "type": "object",
+          "properties": {
+            "role": {
+              "type": "string",
+              "pattern": "^pointOfContact$"
+            },
+            "party": {"type": "array"},
+            "required": ["role"]
+          }
         }
       }
     },
