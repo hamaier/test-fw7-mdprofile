@@ -4,7 +4,7 @@
   "alternateId": ["fesprofile"],
   "title": "FES Lineage test",
   "description": "Test of lineage profile for Theresa",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.1-alpha.2",
   "components": {
     "record": {
       "main": {
@@ -340,6 +340,11 @@
         "title": "Home",
         "target": "record.show.edit.main",
         "tip": "AK customized Basic information about the resource."
+      },
+      {
+        "title": "Lineage",
+        "target": "record.show.edit.lineage",
+        "tip": "Information on the history of the resource."
       },
       {
         "title": "Metadata",
