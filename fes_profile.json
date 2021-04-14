@@ -4,7 +4,7 @@
   "alternateId": ["fesprofile"],
   "title": "FES Lineage test",
   "description": "Test of lineage profile for Theresa",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "components": {
     "record": {
       "main": {
@@ -79,6 +79,135 @@
         "geographic": {
           "description": false
         }
+      },
+      "lineage": {
+        "statement": {},
+        "processStep": {
+          "description": {}
+        },
+        "source": {
+          "description": {},
+          "sourceId": {},
+          "scope": {},
+          "sourceCitation": {
+            "basicInformation": {
+              "title": {},
+              "alternateTitle": {},
+              "dates": {
+                "dateItem": {
+                  "date": {},
+                  "dateType": {},
+                  "description": {}
+                }
+              }
+            },
+            "responsibleParty": {
+              "role": {},
+              "contacts": {}
+            },
+            "onlineResource": {},
+            "identifier": {},
+            "identifierSimple": {
+              "identifier": {},
+              "namespace": {},
+              "version": {},
+              "description": {},
+              "authority": {
+                "basicInformation": {
+                  "title": {},
+                  "alternateTitle": {},
+                  "dates": {}
+                },
+                "responsibleParty": {},
+                "onlineResource": {},
+                "identifier": {},
+                "identifierSimple": {},
+                "identifierShort": {}
+              }
+            },
+            "identifierShort": {}
+          },
+          "metadataCitation": {
+            "basicInformation": {
+              "title": {},
+              "alternateTitle": {},
+              "dates": {
+                "dateItem": {
+                  "date": {},
+                  "dateType": {},
+                  "description": {}
+                }
+              }
+            },
+            "responsibleParty": {
+              "role": {},
+              "contacts": {}
+            },
+            "onlineResource": {
+              "name": {},
+              "url": {},
+              "protocol": {},
+              "description": {},
+              "onlineFunction": {},
+              "applicationProfile": {},
+              "protocolRequest": {}
+            },
+            "identifier": {},
+            "identifierSimple": {
+              "identifier": {},
+              "namespace": {},
+              "version": {},
+              "description": {},
+              "authority": {
+                "basicInformation": {
+                  "title": {},
+                  "alternateTitle": {},
+                  "dates": {}
+                },
+                "responsibleParty": {},
+                "onlineResource": {},
+                "identifier": {},
+                "identifierSimple": {},
+                "identifierShort": {}
+              }
+            },
+            "identifierShort": {}
+          },
+          "referenceSystem": {
+            "referenceSystemType": {},
+            "referenceSystemIdentifier": {
+              "identifier": {},
+              "namespace": {},
+              "version": {},
+              "description": {},
+              "authority": {
+                "basicInformation": {
+                  "title": {},
+                  "alternateTitle": {},
+                  "dates": {}
+                },
+                "responsibleParty": {},
+                "onlineResource": {},
+                "identifier": {},
+                "identifierSimple": {},
+                "identifierShort": {}
+              }
+            }
+          },
+          "spatialResolution": {
+            "scaleFactor": {},
+            "levelOfDetail": {},
+            "measure": {
+              "type": {},
+              "value": {},
+              "units": {}
+            }
+          }
+        },
+        "citation": {
+          false
+        },
+        "scope": {}
       },
       "taxonomy": {
         "collection": {
