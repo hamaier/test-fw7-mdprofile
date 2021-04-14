@@ -204,9 +204,7 @@
             }
           }
         },
-        "citation": {
-          false
-        },
+        "citation": false,
         "scope": {}
       },
       "taxonomy": {
