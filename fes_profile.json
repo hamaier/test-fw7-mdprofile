@@ -4,7 +4,7 @@
   "alternateId": ["fesprofile"],
   "title": "FES Lineage test",
   "description": "Test of lineage profile for Theresa",
-  "version": "0.0.1-alpha.3",
+  "version": "0.0.1-alpha.4",
   "components": {
     "record": {
       "main": {
@@ -205,7 +205,7 @@
           }
         },
         "citation": false,
-        "scope": {}
+        "scope": false
       },
       "taxonomy": {
         "collection": {
